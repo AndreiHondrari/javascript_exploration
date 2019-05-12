@@ -2,7 +2,7 @@
 
 import {p} from "./ut";
 
-p("iterators and for...of\n")
+p("generators\n")
 
 // old way
 p("old-style generator")
@@ -31,8 +31,17 @@ function* makeRangeIterator(start = 0, end = 3, step = 1) {
 }
 
 let g2 = makeRangeIterator();
+
 console.log(g2.next());
 console.log(g2.next());
 console.log(g2.next());
 console.log(g2.next());
 console.log(g2.next());
+
+
+// for...of on generator
+let g3 = makeRangeIterator();
+
+for (let x of g3) {
+    console.log(`g3.x: ${x}`);
+}
