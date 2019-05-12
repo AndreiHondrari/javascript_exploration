@@ -3,7 +3,7 @@
 import {p} from "./ut";
 
 
-p("spread operator")
+p("spread operator\n")
 
 let ls1: number[] = [1, 2, 3];
 let ls2: number[] = [1, 2, 3];

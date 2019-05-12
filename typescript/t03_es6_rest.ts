@@ -3,7 +3,7 @@
 import {p} from "./ut";
 
 
-p("spread operator")
+p("spread operator\n")
 
 function something(...args) {
     args.forEach(function(elem) {
