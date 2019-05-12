@@ -12,6 +12,10 @@ console.log("x: number: " + x);
 console.log(`x: number ${x} -> line generated with format string`);
 console.log(`xb: number = 0b101 | ${xb}`);
 
+p("constants")
+const SOMECONST = 0xff;
+console.log(`SOMECONST: ${SOMECONST}`);
+
 p("arrays")
 console.log("lst1: number[]");
 let lst1: number[] = [1, 2, 3, 4]
