@@ -40,6 +40,7 @@ console.log(g2.next());
 
 
 // for...of on generator
+p("for...of generator")
 let g3 = makeRangeIterator();
 
 for (let x of g3) {
