@@ -12,7 +12,8 @@
         "noFallthroughCasesInSwitch": true,
         "noImplicitReturns": true,
         "noUnusedLocals": false,
-        "baseUrl": "./"
+        "baseUrl": "./",
+        "experimentalDecorators": true,
     },
     "include": [
         "typings/**/*.ts",
