@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+
         "target": "es6",
         "outDir": "build",
-        "lib": ["es7", "dom"],
+        "lib": ["esnext", "dom"],
         "declaration": true,
         "inlineSources": true,
         "inlineSourceMap": true,
